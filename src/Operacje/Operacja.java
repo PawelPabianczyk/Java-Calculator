@@ -1,6 +1,6 @@
 package Operacje;
 
-public class Operacja {
+public class Operacja implements IOperacja{
 
     protected Character operator;
     protected int priorytet;
@@ -23,5 +23,10 @@ public class Operacja {
         if(this.operator == o)
             return true;
         return false;
+    }
+
+    @Override
+    public Double oblicz(Double x, Double y) {
+        return null;
     }
 }

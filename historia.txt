@@ -1,0 +1,12 @@
+Rownanie: 4+5
+Rownanie ONP: 4 5 + =
+Wynik: 9.0
+
+Rownanie: 4+5-2
+Rownanie ONP: 4 5 + 2 - =
+Wynik: 7.0
+
+Rownanie: 5%2
+Rownanie ONP: 5 2 % =
+Wynik: 1.0
+
