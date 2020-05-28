@@ -78,3 +78,7 @@ Rownanie: 5!
 Rownanie ONP: 5 ! =
 Wynik: 120.0
 
+Rownanie: 5+4
+Rownanie ONP: 5 4 + =
+Wynik: 9.0
+

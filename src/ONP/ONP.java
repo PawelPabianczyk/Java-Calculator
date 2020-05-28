@@ -197,6 +197,6 @@ public class ONP {
                 }
             }
         }
-        return "0.0";
+        return "Błędny wynik";
     }
 }
