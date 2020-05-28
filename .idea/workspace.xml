@@ -3,17 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c713ff87-154a-4e21-a74a-1bfe8a4a440a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Operacje/IOperacja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operacje/IOperacja.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Operacje/Iloczyn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operacje/Iloczyn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Operacje/Iloraz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operacje/Iloraz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Operacje/Modulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operacje/Modulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Operacje/Negacja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operacje/Negacja.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Operacje/Operacja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operacje/Operacja.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Operacje/Pierwiastek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operacje/Pierwiastek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Operacje/Potega.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operacje/Potega.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Operacje/Roznica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operacje/Roznica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Operacje/Silnia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operacje/Silnia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Operacje/Suma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operacje/Suma.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/historia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/historia.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ONP/ONP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ONP/ONP.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,22 +112,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590492794111" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1590700814773">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1590702218851">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590700814773" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1590700814773">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590702218851" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1590702218850">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590700814773" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1590700814773">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590702218850" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1590702218850">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590700814773" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1590700814773">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590702218850" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1590702218850">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590700814773" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590702218850" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1590534257023">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

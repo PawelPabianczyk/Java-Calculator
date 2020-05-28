@@ -10,3 +10,71 @@ Rownanie: 5%2
 Rownanie ONP: 5 2 % =
 Wynik: 1.0
 
+Rownanie: 4+5
+Rownanie ONP: 4 5 + =
+Wynik: 9.0
+
+Rownanie: 5-4
+Rownanie ONP: 5 4 - =
+Wynik: 1.0
+
+Rownanie: 4*5
+Rownanie ONP: 4 5 x =
+Wynik: 20.0
+
+Rownanie: 4/2
+Rownanie ONP: 4 2 ÷ =
+Wynik: 2.0
+
+Rownanie: 2^4
+Rownanie ONP: 2 4 ^ =
+Wynik: 16.0
+
+Rownanie: 2V4
+Rownanie ONP: 2 4 √ =
+Wynik: 2.0
+
+Rownanie: 3V64
+Rownanie ONP: 3 64 √ =
+Wynik: 3.9999999999999996
+
+Rownanie: 3V216
+Rownanie ONP: 3 216 √ =
+Wynik: 5.999999999999999
+
+Rownanie: 2V81
+Rownanie ONP: 2 81 √ =
+Wynik: 9.0
+
+Rownanie: 4V1296
+Rownanie ONP: 4 1296 √ =
+Wynik: 6.0
+
+Rownanie: 5V7776
+Rownanie ONP: 5 7776 √ =
+Wynik: 6.000000000000001
+
+Rownanie: 3√216
+Rownanie ONP: 3 216 √ =
+Wynik: 5.999999999999999
+
+Rownanie: 3√216
+Rownanie ONP: 3 216 √ =
+Wynik: 6.0
+
+Rownanie: 2√13
+Rownanie ONP: 2 13 √ =
+Wynik: 4.0
+
+Rownanie: 3V216
+Rownanie ONP: 3 216 √ =
+Wynik: 6.0
+
+Rownanie: 5N
+Rownanie ONP: 5 N =
+Wynik: -5.0
+
+Rownanie: 5!
+Rownanie ONP: 5 ! =
+Wynik: 120.0
+

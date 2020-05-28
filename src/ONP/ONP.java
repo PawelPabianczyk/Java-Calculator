@@ -145,29 +145,29 @@ public class ONP {
 
                 switch (rownanie.charAt(i)) {
                     case ('+'): {
-                        stosLiczb.push(new Liczba((a + b)));
+                        stosLiczb.push(new Liczba(new Suma().oblicz(a,b)));
                         break;
                     }
                     case ('-'): {
-                        stosLiczb.push(new Liczba((a - b)));
+                        stosLiczb.push(new Liczba(new Roznica().oblicz(a,b)));
                         break;
                     }
                     case ('x'):
                         ;
                     case ('*'): {
-                        stosLiczb.push(new Liczba((a * b)));
+                        stosLiczb.push(new Liczba(new Iloczyn().oblicz(a,b)));
                         break;
                     }
                     case ('/'): {
                         if(b==0)
                             throw new ArithmeticException("Nie dziel przez zero.");
-                        stosLiczb.push(new Liczba((a / b)));
+                        stosLiczb.push(new Liczba(new Roznica().oblicz(a,b)));
                         break;
                     }
                     case ('^'): {
                         if(a==0 && b==0)
                             throw new ArithmeticException("Zero do potęgi zerowej.");
-                        stosLiczb.push(new Liczba(Math.pow(a, b)));
+                        stosLiczb.push(new Liczba(new Potega().oblicz(a,b)));
                         break;
                     }
                     case ('V'): {
@@ -175,35 +175,28 @@ public class ONP {
                             throw new ArithmeticException("Pierwsza liczba nie jest dodatnia.");
                         if(b==0)
                             throw new ArithmeticException("Druga liczba jest zerem.");
-                        stosLiczb.push(new Liczba(Math.pow(b, 1/a)));
+                        stosLiczb.push(new Liczba(Math.round(new Pierwiastek().oblicz(a,b) *10000.0)/10000.0));
                         break;
                     }
                     case ('%'): {
                         if(a==0)
                             throw new ArithmeticException("Nie dziel przez zero.");
-                        stosLiczb.push(new Liczba(a%b));
+                        stosLiczb.push(new Liczba(new Modulo().oblicz(a,b)));
                         break;
                     }
                     case ('!'): {
                         if(a<0)
                             throw new ArithmeticException("Podana liczba jest mniejsza od zera.");
-                        stosLiczb.push(new Liczba(silnia(a)));
+                        stosLiczb.push(new Liczba(new Silnia().oblicz(a,0.0)));
                         break;
                     }
                     case ('N'):{
-                        stosLiczb.push(new Liczba(-a));
+                        stosLiczb.push(new Liczba(new Negacja().oblicz(a,0.0)));
                         break;
                     }
                 }
             }
         }
         return "0.0";
-    }
-
-    private static double silnia(double i) {
-        if (i < 1)
-            return 1;
-        else
-            return i * silnia(i - 1);
     }
 }
