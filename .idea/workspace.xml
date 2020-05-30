@@ -7,12 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c713ff87-154a-4e21-a74a-1bfe8a4a440a" name="Default Changelist" comment="Add new class Rekord">
-      <change afterPath="$PROJECT_DIR$/src/GUI/Historia.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/historia.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/historia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/historia.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LK12_kalkulator/GUI/Historia.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LK12_kalkulator/GUI/Historia.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LK12_kalkulator/GUI/Kalkulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LK12_kalkulator/GUI/Kalkulator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LK12_kalkulator/GUI/elementy/MyActionListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LK12_kalkulator/GUI/elementy/MyActionListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/Rekord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/Rekord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/Historia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/Historia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/Kalkulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/Kalkulator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/elementy/MyActionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/elementy/MyActionListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +45,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="319" />
@@ -175,22 +178,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590703161990" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1590874026492">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1590877645219">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590874026492" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1590874026491">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590877645219" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1590877645219">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590874026491" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1590874026491">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590877645219" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1590877645219">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590874026491" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1590874026492">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590877645219" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1590877645219">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590874026492" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590877645219" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1590534257023">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

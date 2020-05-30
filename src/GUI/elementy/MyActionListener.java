@@ -20,7 +20,14 @@ public class MyActionListener implements ActionListener {
         this.labelWynik=labelWynik;
         this.poleR=poleR;
         this.rownanie=rownanie;
-        this.historia = new Historia();
+//        this.historia = new Historia();
+
+        try (ObjectInputStream inputStream = new ObjectInputStream(new FileInputStream("historia.bin"))) {
+            this.historia = (Historia) inputStream.readObject();
+        } catch (Exception e) {
+            this.historia = new Historia();
+            e.getMessage();
+        }
     }
 
     @Override
@@ -191,21 +198,24 @@ public class MyActionListener implements ActionListener {
 
     private void zapisDoPliku(){
 
-        historia.dodajRekord(new Rekord(labelONP.getText(), poleR.getText(), labelWynik.getText()));
-
-        try (ObjectOutputStream outputStream = new ObjectOutputStream(new FileOutputStream("historia.bin"))) {
-            outputStream.writeObject(historia);
-        } catch (Exception e) {
-            e.getMessage();
-        }
+//        historia.dodajRekord(new Rekord(labelONP.getText(), poleR.getText(), labelWynik.getText()));
 //
-//        try (ObjectInputStream inputStream = new ObjectInputStream(new FileInputStream("historia.bin"))) {
-//            Historia historia = (Historia) inputStream.readObject();
-//            System.out.println(historia.toString());
-//            System.out.println("Przerwa\n");
+//        try (ObjectOutputStream outputStream = new ObjectOutputStream(new FileOutputStream("historia.bin"))) {
+//            outputStream.writeObject(historia);
 //        } catch (Exception e) {
 //            e.getMessage();
 //        }
+
+//        try (ObjectInputStream inputStream = new ObjectInputStream(new FileInputStream("historia.bin"))) {
+//            Historia historia = (Historia) inputStream.readObject();
+//            System.out.println(historia.poprzedniRekord());
+//            System.out.println(historia.poprzedniRekord());
+//            System.out.println(historia.poprzedniRekord());
+//        } catch (Exception e) {
+//            e.getMessage();
+//        }
+
+        System.out.println("\n");
 
         try(FileWriter fw = new FileWriter("historia.txt", true);
             BufferedWriter bw = new BufferedWriter(fw);

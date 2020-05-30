@@ -162,3 +162,103 @@ Rownanie: 72-6
 Rownanie ONP: 72 6 - =
 Wynik: 66.0
 
+Rownanie: 5+2
+Rownanie ONP: 5 2 + =
+Wynik: 7.0
+
+Rownanie: 8*9
+Rownanie ONP: 8 9 x =
+Wynik: 72.0
+
+Rownanie: 7*2
+Rownanie ONP: 7 2 x =
+Wynik: 14.0
+
+Rownanie: 1+0
+Rownanie ONP: 1 0 + =
+Wynik: 1.0
+
+Rownanie: 1+1
+Rownanie ONP: 1 1 + =
+Wynik: 2.0
+
+Rownanie: 1+2
+Rownanie ONP: 1 2 + =
+Wynik: 3.0
+
+Rownanie: 1+2
+Rownanie ONP: 1 2 + =
+Wynik: 3.0
+
+Rownanie: 5+6
+Rownanie ONP: 5 6 + =
+Wynik: 11.0
+
+Rownanie: 3+3
+Rownanie ONP: 3 3 + =
+Wynik: 6.0
+
+Rownanie: 3+4
+Rownanie ONP: 3 4 + =
+Wynik: 7.0
+
+Rownanie: 7+7
+Rownanie ONP: 7 7 + =
+Wynik: 14.0
+
+Rownanie: 1+1
+Rownanie ONP: 1 1 + =
+Wynik: 2.0
+
+Rownanie: 1+2
+Rownanie ONP: 1 2 + =
+Wynik: 3.0
+
+Rownanie: 0+0
+Rownanie ONP: 0 0 + =
+Wynik: 0.0
+
+Rownanie: 7+8
+Rownanie ONP: 7 8 + =
+Wynik: 15.0
+
+Rownanie: 1-9
+Rownanie ONP: 1 9 - =
+Wynik: -8.0
+
+Rownanie: 1+9
+Rownanie ONP: 1 9 + =
+Wynik: 10.0
+
+Rownanie: 1+9
+Rownanie ONP: 1 9 + =
+Wynik: 10.0
+
+Rownanie: 1+9
+Rownanie ONP: 1 9 + =
+Wynik: 10.0
+
+Rownanie: 1+0
+Rownanie ONP: 1 0 + =
+Wynik: 1.0
+
+Rownanie: 2+0
+Rownanie ONP: 2 0 + =
+Wynik: 2.0
+
+Rownanie: 3+0
+Rownanie ONP: 3 0 + =
+Wynik: 3.0
+
+Rownanie: 9-5
+Rownanie ONP: 9 5 - =
+Wynik: 4.0
+
+Rownanie: 9-7
+Rownanie ONP: 9 7 - =
+Wynik: 2.0
+
+Rownanie: 5+6
+Rownanie ONP: 5 6 + =
+Wynik: 11.0
+

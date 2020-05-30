@@ -31,7 +31,7 @@ public class Kalkulator {
         panel.setLayout(new GridLayout(3,1));
 
         this.panel2 = new JPanel();
-        panel2.setLayout(new GridLayout(5,5));
+        panel2.setLayout(new GridLayout(6,5));
 
         this.rownanie = new ArrayList<>();
 
@@ -46,7 +46,7 @@ public class Kalkulator {
         poleR.addActionListener(new MyActionListener(labelONP,labelWynik,poleR, rownanie));
         poleR.addMouseListener(new MyMouseAdapter(poleR));
 
-        this.btnLabels = new String[]{"C", "DEL", "(", ")", "=","7","8", "9",""+(char)8730, "!", "4",
+        this.btnLabels = new String[]{"", "<", "", ">", "", "C", "DEL", "(", ")", "=","7","8", "9",""+(char)8730, "!", "4",
                 "5", "6", "%", "^", "1", "2", "3", "x", ""+(char)247, "NEG", "0", ".","+", "-"};
 
         this.btns = new MyButton[btnLabels.length];
@@ -54,7 +54,14 @@ public class Kalkulator {
         for(int i = 0; i<btnLabels.length; i++){
             btns[i] = new MyButton(btnLabels[i]);
             panel2.add(btns[i]);
-            btns[i].addActionListener(new MyActionListener(labelONP,labelWynik,poleR, rownanie));
+
+            if(i==0 || i==2 || i==4){
+                btns[i].setEnabled(false);
+            }
+            else{
+                btns[i].addActionListener(new MyActionListener(labelONP,labelWynik,poleR, rownanie));
+            }
+
         }
 
         panelGlowny.setLayout(new BoxLayout(panelGlowny, BoxLayout.PAGE_AXIS));
