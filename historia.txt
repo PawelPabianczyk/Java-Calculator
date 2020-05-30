@@ -82,3 +82,47 @@ Rownanie: 5+4
 Rownanie ONP: 5 4 + =
 Wynik: 9.0
 
+Rownanie: 8+5
+Rownanie ONP: 8 5 + =
+Wynik: 13.0
+
+Rownanie: 4+5
+Rownanie ONP: 4 5 + =
+Wynik: null
+
+Rownanie: 8+4
+Rownanie ONP: 8 4 + =
+Wynik: 12.0
+
+Rownanie: 4+6
+Rownanie ONP: 4 6 + =
+Wynik: null
+
+Rownanie: 8-5
+Rownanie ONP: 8 5 - =
+Wynik: null
+
+Rownanie: 8*2
+Rownanie ONP: 8 2 x =
+Wynik: 16.0
+
+Rownanie: 4+5
+Rownanie ONP: 4 5 + =
+Wynik: 9.0
+
+Rownanie: 8*4
+Rownanie ONP: 8 4 x =
+Wynik: 32.0
+
+Rownanie: 8/2
+Rownanie ONP: 8 2 ÷ =
+Wynik: 6.0
+
+Rownanie: 45+5
+Rownanie ONP: 45 5 + =
+Wynik: 50.0
+
+Rownanie: 45+6
+Rownanie ONP: 45 6 + =
+Wynik: 51.0
+

@@ -1,0 +1,16 @@
+Rownanie: 5^2
+Rownanie ONP: 5 2 ^ =
+Wynik: 25.0
+
+Rownanie: 5%2
+Rownanie ONP: 5 2 % =
+Wynik: 1.0
+
+Rownanie: 6%2
+Rownanie ONP: 6 2 % =
+Wynik: 0.0
+
+Rownanie: 5x2
+Rownanie ONP: 5 2 x =
+Wynik: 10.0
+

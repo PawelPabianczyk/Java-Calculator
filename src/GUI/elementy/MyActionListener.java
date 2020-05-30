@@ -1,5 +1,6 @@
 package GUI.elementy;
 
+import GUI.Rekord;
 import ONP.ONP;
 import javax.swing.*;
 import java.awt.event.*;
@@ -11,12 +12,14 @@ public class MyActionListener implements ActionListener {
     private MyLabel labelWynik;
     private MyTextField poleR;
     private ArrayList<String> rownanie;
+    private ArrayList<Rekord> historia;
 
     public MyActionListener(MyLabel labelONP, MyLabel labelWynik, MyTextField poleR, ArrayList rownanie){
         this.labelONP=labelONP;
         this.labelWynik=labelWynik;
         this.poleR=poleR;
         this.rownanie=rownanie;
+        this.historia = new ArrayList<>();
     }
 
     @Override
@@ -133,10 +136,10 @@ public class MyActionListener implements ActionListener {
         try {
             String wynik = onp.obliczOnp(rownanieONP);
             labelWynik.setText(wynik);
+            zapisDoPliku();
         }catch (Exception exc){
             labelWynik.setText(exc.getMessage());
         }
-        zapisDoPliku();
     }
 
     private Boolean czyPoprawneNawiasy(){
@@ -186,6 +189,8 @@ public class MyActionListener implements ActionListener {
     }
 
     private void zapisDoPliku(){
+        historia.add(new Rekord(labelONP.getText(), poleR.getText(), labelWynik.getText()));
+
         try(FileWriter fw = new FileWriter("historia.txt", true);
             BufferedWriter bw = new BufferedWriter(fw);
             PrintWriter out = new PrintWriter(bw))

@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="LK12_kalkulator:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c713ff87-154a-4e21-a74a-1bfe8a4a440a" name="Default Changelist" comment="" />
+    <list default="true" id="c713ff87-154a-4e21-a74a-1bfe8a4a440a" name="Default Changelist" comment="Add new class Rekord">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/LK12_kalkulator_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUI/Rekord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/historia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/historia.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LK12_kalkulator/GUI/elementy/MyActionListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LK12_kalkulator/GUI/elementy/MyActionListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/elementy/MyActionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/elementy/MyActionListener.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,12 +22,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1cNFLTXLJ3aqJBbOjAzHTTQOLW3" />
@@ -28,9 +45,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="319" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Kalkulator" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="Application.Kalkulator">
     <configuration name="Kalkulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -85,7 +103,43 @@
       <option name="presentableId" value="Default" />
       <updated>1590361087818</updated>
     </task>
+    <task id="LOCAL-00001" summary="Upgrade ONP counting method">
+      <created>1590702655637</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590702655637</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Upgrade ONP counting method" />
+    <MESSAGE value="Add new class Rekord" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new class Rekord" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#Project_Structure" timestamp="1590361101918">
@@ -100,34 +154,42 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="452" y="64" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1590691756428" />
+    <state x="413" y="147" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1590703136702">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="147" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1590703136702" />
     <state x="479" y="248" width="407" height="238" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1590395666739">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="479" y="248" width="407" height="238" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1590395666739" />
-    <state x="149" y="0" key="CommitChangelistDialog2" timestamp="1590702555217">
+    <state x="273" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590871557736">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="149" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1590702555217" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1590492794111">
+    <state x="273" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1590871557736" />
+    <state x="149" y="0" key="CommitChangelistDialog2" timestamp="1590871904166">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590492794111" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1590702588116">
+    <state x="149" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1590871904166" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1590703161990">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590702588116" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1590702588116">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590703161990" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1590871670234">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590702588116" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1590702588116">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590871670234" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1590871670234">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590702588116" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1590702588116">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590871670234" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1590871670234">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590702588116" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590871670234" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1590871670234">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590871670234" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1590534257023">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -144,6 +206,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1590534257023" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1590703175132">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1590703175132" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1590871844539">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1590871844539" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1590673924670">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
