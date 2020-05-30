@@ -126,3 +126,39 @@ Rownanie: 45+6
 Rownanie ONP: 45 6 + =
 Wynik: 51.0
 
+Rownanie: 8+9
+Rownanie ONP: 8 9 + =
+Wynik: 17.0
+
+Rownanie: 5+7
+Rownanie ONP: 5 7 + =
+Wynik: 12.0
+
+Rownanie: 4+6
+Rownanie ONP: 4 6 + =
+Wynik: 10.0
+
+Rownanie: 45-5
+Rownanie ONP: 45 5 - =
+Wynik: 40.0
+
+Rownanie: 123-23
+Rownanie ONP: 123 23 - =
+Wynik: 100.0
+
+Rownanie: 80-40
+Rownanie ONP: 80 40 - =
+Wynik: 40.0
+
+Rownanie: 43+56
+Rownanie ONP: 43 56 + =
+Wynik: 99.0
+
+Rownanie: 45+9
+Rownanie ONP: 45 9 + =
+Wynik: 54.0
+
+Rownanie: 72-6
+Rownanie ONP: 72 6 - =
+Wynik: 66.0
+

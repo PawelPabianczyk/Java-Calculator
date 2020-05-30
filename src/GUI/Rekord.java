@@ -1,6 +1,8 @@
 package GUI;
 
-public class Rekord {
+import java.io.Serializable;
+
+public class Rekord implements Serializable {
     private String onp;
     private String wynik;
     private String rownanie;
@@ -21,5 +23,14 @@ public class Rekord {
 
     public String getWynik() {
         return wynik;
+    }
+
+    @Override
+    public String toString() {
+        return "Rekord{" +
+                "onp='" + onp + '\'' +
+                ", wynik='" + wynik + '\'' +
+                ", rownanie='" + rownanie + '\'' +
+                '}';
     }
 }

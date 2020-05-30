@@ -1,5 +1,6 @@
 package GUI.elementy;
 
+import GUI.Historia;
 import GUI.Rekord;
 import ONP.ONP;
 import javax.swing.*;
@@ -12,14 +13,14 @@ public class MyActionListener implements ActionListener {
     private MyLabel labelWynik;
     private MyTextField poleR;
     private ArrayList<String> rownanie;
-    private ArrayList<Rekord> historia;
+    private Historia historia;
 
     public MyActionListener(MyLabel labelONP, MyLabel labelWynik, MyTextField poleR, ArrayList rownanie){
         this.labelONP=labelONP;
         this.labelWynik=labelWynik;
         this.poleR=poleR;
         this.rownanie=rownanie;
-        this.historia = new ArrayList<>();
+        this.historia = new Historia();
     }
 
     @Override
@@ -189,7 +190,22 @@ public class MyActionListener implements ActionListener {
     }
 
     private void zapisDoPliku(){
-        historia.add(new Rekord(labelONP.getText(), poleR.getText(), labelWynik.getText()));
+
+        historia.dodajRekord(new Rekord(labelONP.getText(), poleR.getText(), labelWynik.getText()));
+
+        try (ObjectOutputStream outputStream = new ObjectOutputStream(new FileOutputStream("historia.bin"))) {
+            outputStream.writeObject(historia);
+        } catch (Exception e) {
+            e.getMessage();
+        }
+//
+//        try (ObjectInputStream inputStream = new ObjectInputStream(new FileInputStream("historia.bin"))) {
+//            Historia historia = (Historia) inputStream.readObject();
+//            System.out.println(historia.toString());
+//            System.out.println("Przerwa\n");
+//        } catch (Exception e) {
+//            e.getMessage();
+//        }
 
         try(FileWriter fw = new FileWriter("historia.txt", true);
             BufferedWriter bw = new BufferedWriter(fw);
