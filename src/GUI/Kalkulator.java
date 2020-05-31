@@ -4,6 +4,8 @@ import GUI.elementy.*;
 
 import javax.swing.*;
 import java.awt.*;
+import java.io.FileInputStream;
+import java.io.ObjectInputStream;
 import java.util.ArrayList;
 
 public class Kalkulator {
@@ -18,8 +20,20 @@ public class Kalkulator {
     private String[] btnLabels;
     private MyButton[] btns;
     private ArrayList<String> rownanie;
+    private Historia historia;
+
+    private void odczytajHistorie(){
+        try (ObjectInputStream inputStream = new ObjectInputStream(new FileInputStream("historia.bin"))) {
+            this.historia = (Historia) inputStream.readObject();
+        } catch (Exception e) {
+            this.historia = new Historia();
+            e.getMessage();
+        }
+    }
 
     public Kalkulator(){
+
+        odczytajHistorie();
 
         this.frame = new JFrame();
         frame.setMinimumSize(new Dimension(402,650));
@@ -43,7 +57,7 @@ public class Kalkulator {
 
         this.poleR = new MyTextField("");
         panel.add(poleR);
-        poleR.addActionListener(new MyActionListener(labelONP,labelWynik,poleR, rownanie));
+        poleR.addActionListener(new MyActionListener(labelONP,labelWynik,poleR, rownanie, historia));
         poleR.addMouseListener(new MyMouseAdapter(poleR));
 
         this.btnLabels = new String[]{"", "<", "", ">", "", "C", "DEL", "(", ")", "=","7","8", "9",""+(char)8730, "!", "4",
@@ -59,7 +73,7 @@ public class Kalkulator {
                 btns[i].setEnabled(false);
             }
             else{
-                btns[i].addActionListener(new MyActionListener(labelONP,labelWynik,poleR, rownanie));
+                btns[i].addActionListener(new MyActionListener(labelONP,labelWynik,poleR, rownanie, historia));
             }
 
         }

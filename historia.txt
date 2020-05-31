@@ -262,3 +262,119 @@ Rownanie: 5+6
 Rownanie ONP: 5 6 + =
 Wynik: 11.0
 
+Rownanie: 5-2
+Rownanie ONP: 5 2 - =
+Wynik: 3.0
+
+Rownanie: 3x2
+Rownanie ONP: 3 2 x =
+Wynik: 6.0
+
+Rownanie: 5%2
+Rownanie ONP: 5 2 % =
+Wynik: 1.0
+
+Rownanie: 9+3
+Rownanie ONP: 9 3 + =
+Wynik: 12.0
+
+Rownanie: 1+0
+Rownanie ONP: 1 0 + =
+Wynik: 1.0
+
+Rownanie: 1+2
+Rownanie ONP: 1 2 + =
+Wynik: 3.0
+
+Rownanie: 1+0
+Rownanie ONP: 1 0 + =
+Wynik: 1.0
+
+Rownanie: 2+0
+Rownanie ONP: 2 0 + =
+Wynik: 2.0
+
+Rownanie: 3+0
+Rownanie ONP: 3 0 + =
+Wynik: 3.0
+
+Rownanie: 4+0
+Rownanie ONP: 4 0 + =
+Wynik: 4.0
+
+Rownanie: 5+0
+Rownanie ONP: 5 0 + =
+Wynik: 5.0
+
+Rownanie: 9x2
+Rownanie ONP: 9 2 x =
+Wynik: 18.0
+
+Rownanie: 5x2
+Rownanie ONP: 5 2 x =
+Wynik: 10.0
+
+Rownanie: 1+0
+Rownanie ONP: 1 0 + =
+Wynik: 1.0
+
+Rownanie: 1+02+0
+Rownanie ONP: 1 02 + 0 + =
+Wynik: 3.0
+
+Rownanie: 1+0
+Rownanie ONP: 1 0 + =
+Wynik: 1.0
+
+Rownanie: 2+0
+Rownanie ONP: 2 0 + =
+Wynik: 2.0
+
+Rownanie: 3+0
+Rownanie ONP: 3 0 + =
+Wynik: 3.0
+
+Rownanie: 4+0
+Rownanie ONP: 4 0 + =
+Wynik: 4.0
+
+Rownanie: 5+0
+Rownanie ONP: 5 0 + =
+Wynik: 5.0
+
+Rownanie: 1+0
+Rownanie ONP: 1 0 + =
+Wynik: 1.0
+
+Rownanie: 2+0
+Rownanie ONP: 2 0 + =
+Wynik: 2.0
+
+Rownanie: 3+0
+Rownanie ONP: 3 0 + =
+Wynik: 3.0
+
+Rownanie: 4+0
+Rownanie ONP: 4 0 + =
+Wynik: 4.0
+
+Rownanie: 5+0
+Rownanie ONP: 5 0 + =
+Wynik: 5.0
+
+Rownanie: 5+0=6x12
+Rownanie ONP: 5 0 + =6 12 x =
+Wynik: 5.0
+
+Rownanie: 2x2
+Rownanie ONP: 2 2 x =
+Wynik: 4.0
+
+Rownanie: 5x2
+Rownanie ONP: 5 2 x =
+Wynik: 10.0
+
+Rownanie: 5x3
+Rownanie ONP: 5 3 x =
+Wynik: 15.0
+

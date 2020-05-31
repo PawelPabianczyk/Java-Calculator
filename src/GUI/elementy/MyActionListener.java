@@ -15,19 +15,12 @@ public class MyActionListener implements ActionListener {
     private ArrayList<String> rownanie;
     private Historia historia;
 
-    public MyActionListener(MyLabel labelONP, MyLabel labelWynik, MyTextField poleR, ArrayList rownanie){
+    public MyActionListener(MyLabel labelONP, MyLabel labelWynik, MyTextField poleR, ArrayList rownanie, Historia historia){
         this.labelONP=labelONP;
         this.labelWynik=labelWynik;
         this.poleR=poleR;
         this.rownanie=rownanie;
-//        this.historia = new Historia();
-
-        try (ObjectInputStream inputStream = new ObjectInputStream(new FileInputStream("historia.bin"))) {
-            this.historia = (Historia) inputStream.readObject();
-        } catch (Exception e) {
-            this.historia = new Historia();
-            e.getMessage();
-        }
+        this.historia = historia;
     }
 
     @Override
@@ -36,6 +29,22 @@ public class MyActionListener implements ActionListener {
             String wejscie = ((MyButton) e.getSource()).getText();
 
             switch (wejscie){
+                case "<":
+                    if(!historia.czyPusta()){
+                        Rekord rekord = historia.poprzedniRekord();
+                        poleR.setText(rekord.getRownanie());
+                        labelWynik.setText(rekord.getWynik());
+                        labelONP.setText(rekord.getOnp());
+                    }
+                    break;
+                case ">":
+                    if(!historia.czyPusta()){
+                        Rekord rekord = historia.nastepnyRekord();
+                        poleR.setText(rekord.getRownanie());
+                        labelWynik.setText(rekord.getWynik());
+                        labelONP.setText(rekord.getOnp());
+                    }
+                    break;
                 case "C":
                     rownanie.clear();
                     break;
@@ -198,22 +207,13 @@ public class MyActionListener implements ActionListener {
 
     private void zapisDoPliku(){
 
-//        historia.dodajRekord(new Rekord(labelONP.getText(), poleR.getText(), labelWynik.getText()));
-//
-//        try (ObjectOutputStream outputStream = new ObjectOutputStream(new FileOutputStream("historia.bin"))) {
-//            outputStream.writeObject(historia);
-//        } catch (Exception e) {
-//            e.getMessage();
-//        }
+        historia.dodajRekord(new Rekord(labelONP.getText(), poleR.getText(), labelWynik.getText()));
 
-//        try (ObjectInputStream inputStream = new ObjectInputStream(new FileInputStream("historia.bin"))) {
-//            Historia historia = (Historia) inputStream.readObject();
-//            System.out.println(historia.poprzedniRekord());
-//            System.out.println(historia.poprzedniRekord());
-//            System.out.println(historia.poprzedniRekord());
-//        } catch (Exception e) {
-//            e.getMessage();
-//        }
+        try (ObjectOutputStream outputStream = new ObjectOutputStream(new FileOutputStream("historia.bin"))) {
+            outputStream.writeObject(historia);
+        } catch (Exception e) {
+            e.getMessage();
+        }
 
         System.out.println("\n");
 
